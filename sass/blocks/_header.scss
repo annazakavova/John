@@ -1,0 +1,21 @@
+.header {
+	
+	&__container {
+		max-width: 1062px;
+		padding: 0 15px;
+		margin: 0 auto;
+	}
+
+	&__row ul {
+		display: flex;
+		justify-content: flex-end;
+
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 29px;
+
+		li:not(:first-child) {
+			margin-left: 33px;
+		}
+	}
+}
