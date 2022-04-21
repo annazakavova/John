@@ -1,0 +1,42 @@
+.footer {
+	text-align: center;
+
+	&__social {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 51px;
+	}
+
+	&__copy {
+		margin-bottom: 54px;
+	}
+}
+
+.social-item {
+	font-size: 30px;
+	color: #21243D;
+
+	margin-bottom: 26px;
+
+	&:not(:last-child) {
+		margin-right: 35px;
+	}
+}
+
+@media (max-width: 782px) {
+.footer {
+
+	&__social {
+		margin-top: 25px;
+	}
+
+	&__copy {
+	
+	}
+}
+
+.social-item {
+	
+}
+}
