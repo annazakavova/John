@@ -1,9 +1,16 @@
 .header {
+
+	&__active {
+		color: #FF6464;
+	}
 	
 	&__container {
 		max-width: 1062px;
 		padding: 0 15px;
 		margin: 0 auto;
+
+		display: flex;
+		justify-content: end;
 	}
 
 	&__row ul {
@@ -14,8 +21,15 @@
 		font-size: 20px;
 		line-height: 29px;
 
+		margin-top: 27px;
+
 		li:not(:first-child) {
 			margin-left: 33px;
 		}
+
+		a:hover {
+			color: #FF6464;
+		}
+
 	}
 }

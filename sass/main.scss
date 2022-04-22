@@ -1,7 +1,13 @@
-// BLOCS
+// PAGE INDEX (CONTACT)
 @import "./blocks/header";
 @import "./blocks/main";
 @import "./blocks/home";
 @import "./blocks/posts";
-@import "./blocks/works";
+@import "./blocks/works__featured";
 @import "./blocks/footer";
+
+// PAGE BLOG
+@import "./blocks/blog";
+
+// PAGE WORKS
+@import "./blocks/works";

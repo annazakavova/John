@@ -21,6 +21,11 @@
 
 	&__recent-link {
 		color: #00A8CC;
+
+		a:hover {
+			color: #FF6464;
+			font-weight: 500;
+		}
 	}
 }
 
@@ -29,6 +34,12 @@
 	justify-content: space-between;
 }
 .post {
+
+	transition: 0.3s ease-in;
+	
+	&:hover {
+		transform: scale(1.05);
+	}
 
 	&__card {
 		width: 418px;

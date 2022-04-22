@@ -1,0 +1,114 @@
+.blog {
+
+	&__name {
+		font-weight: 700;
+		font-size: 44px;
+		line-height: 60px;
+
+		margin: 160px 0 55px 0;
+	}
+
+	&__card-info {
+		transition: 0.3s ease-in;
+
+		&:hover {
+			transform: scale(1.05);
+		}
+	}
+
+	&__card {
+		border-bottom: 1px solid #E0E0E0;
+
+		&:not(:first-child) {
+			margin-top: 30px;
+		}
+	}
+
+	&__title {
+		font-weight: 500;
+		font-size: 30px;
+		line-height: 44px;
+
+		margin-bottom: 16px;
+	}
+
+	&__card-text {
+		display: flex;
+
+		font-size: 20px;
+		line-height: 29px;
+
+		margin-bottom: 15px;
+	}
+
+	&__card-text-vector::after {
+		content: "";
+		position: absolute;
+		height: 21px;
+		border: 1px solid #000000;
+	
+		margin-left: 30px;
+	}
+
+	&__card-text-design {
+		font-size: 20px;
+		line-height: 29px;
+
+		color: #8695A4;
+
+		margin-left: 60px;
+	}
+
+	&__subtitle {
+		margin-bottom: 30px;
+
+	}
+}
+
+.general {
+
+	&__container {
+		max-width: 712px;
+		padding: 0 15px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 782px) {
+	.blog {
+	
+		&__name {
+			margin: 74px 0 18px 0;
+		}
+		
+		&__card {
+		
+			&:not(:first-child) {
+				margin-top: 18px;
+			}
+		}
+
+		&__title {
+			font-size: 30px;
+			line-height: 60px;
+
+			margin-bottom: 5px;
+		}
+	
+		&__card-text {
+			font-size: 16px;
+			line-height: 24px;
+
+			margin-bottom: 17px;
+		}
+
+		&__card-text-design {
+			font-size: 16px;
+			line-height: 24px;
+		}
+	
+		&__subtitle {
+			margin-bottom: 24px;
+		}
+	}
+}

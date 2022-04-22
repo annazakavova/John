@@ -11,6 +11,15 @@
 	&__copy {
 		margin-bottom: 54px;
 	}
+
+	a {
+		transition: 0.3s ease-in;
+
+		&:hover {
+			color: #FF6464;
+			transform: scale(1.05);
+		}
+	}
 }
 
 .social-item {
@@ -30,13 +39,5 @@
 	&__social {
 		margin-top: 25px;
 	}
-
-	&__copy {
-	
-	}
-}
-
-.social-item {
-	
 }
 }
